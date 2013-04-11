@@ -5,6 +5,7 @@ module Metrika
     include Api::Counters
     include Api::Resources
     include Api::Statistics
+    include Api::Traffic
 
     def initialize(application_id = Metrika.application_id, application_password = Metrika.application_password)
       @application_id = application_id

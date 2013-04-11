@@ -6,6 +6,7 @@ require METRIKA_PATH + 'ext'
 require METRIKA_PATH + 'api/counters'
 require METRIKA_PATH + 'api/resources'
 require METRIKA_PATH + 'api/statistics'
+require METRIKA_PATH + 'api/traffic'
 
 require METRIKA_PATH + 'client'
 require METRIKA_PATH + 'errors'
